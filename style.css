@@ -1,0 +1,32 @@
+body, div, ul, li, img {
+	margin: 0; padding: 0; border: 0;
+}
+
+body{
+    /* opacity:0.5; */
+}
+/* app开始加载的东西 */
+#chat_preselect {
+    postion:relative;
+    margin: 0 auto;
+    /* background:url(images/bg.jpg); */
+    width: 600px;
+    height:700px;
+    /* opacity: 0.5; */
+}
+/* app选择项 */
+#chat_select_first ul{
+    list-style-type: upper-latin;
+}
+.second_select{
+    visibility: hidden;
+}
+.setting_back{
+    visibility:hidden;
+    background-image: url(images/back.png);
+    width:128px;
+    height:128px;
+    
+}
+
+

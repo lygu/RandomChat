@@ -1,0 +1,60 @@
+body, div, ul, li, img {
+	margin: 0; padding: 0; border: 0;
+}
+
+body{
+    /* opacity:0.5; */
+}
+/* app开始加载的东西 */
+#chat_preselect {
+    postion:relative;
+    margin: 0 auto;
+    /* background:url(images/bg.jpg); */
+    width: 600px;
+    height:700px;
+    /* opacity: 0.5; */
+}
+/* app选择项 */
+body ul li{
+    /* list-style-type: upper-latin; */
+    list-style-type: none;
+
+}
+.setting_back{
+    visibility:hidden;
+    background-image: url(images/back.png);
+    width:128px;
+    height:128px;
+    
+}
+.options{
+    padding: 8px 35px 8px 14px;
+    margin-bottom: 20px;
+    color: #c09853;
+    width: 150px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    background-color: #fcf8e3;
+    border: 1px solid #fbeed5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+/* 小标签的关闭样式 */
+button.close {
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+.select.options{
+    margin:20px;
+    width:200px;
+    height:300px;
+}
+.select.options li{
+    color: #468847;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
